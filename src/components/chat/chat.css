@@ -1,0 +1,84 @@
+.card {
+    margin-bottom: 16px;
+}
+
+.reply-input{
+    margin-left: 50px;
+    width: 400px;
+    height: 40px;
+}
+
+.chat {
+    display: flex;
+}
+
+.av {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-chat {
+    display: flex;
+    margin: 10px 50px;
+}
+
+.time {
+    margin-left: 8px;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(153, 150, 150);
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.bar {
+    padding-left: 18px;
+}
+
+.message {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.reply:hover, .delete:hover{
+    color: black;
+}
+
+.reply {
+    color: rgb(175, 175, 175);
+    margin-left: 50px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.delete {
+    color: rgb(175, 175, 175);
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.reply-btn {
+    margin-left: 50px;
+    padding: 5px;
+    background: rgb(81 81 255);
+    color: white;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.reply-btn:hover{
+    background: blue
+}
